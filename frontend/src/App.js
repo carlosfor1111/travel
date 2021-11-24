@@ -60,7 +60,7 @@ function App() {
             <Route path="/Pay" component={Pay}>
               <Pay member={member} />
             </Route>
-            <Route path="/order_form/:oderPage?" component={Oder} >
+            <Route path="/order_form/:oderPage?" component={Oder}>
               <Oder member={member} />
             </Route>
             <Route path="/register" component={Register} />
